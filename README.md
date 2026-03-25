@@ -5,6 +5,7 @@ ODGOVORI NA VPRAŠANJA:\
 g) objectname = b0\
 3. b) zelena LED: PD12\
 modra LED: PD15\
-f) RX: PA1\
+c) RX: PA1\
 TX: PA0\
 RX pin na STM-u moramo povezati s TX pinom na Nextion zaslonu in obratno. RX pin namreč pošilja podatke, medtem ko TX pin sprejema podatke.\
+d) PC0: kanal IN10\
