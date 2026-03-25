@@ -7,3 +7,4 @@ g) objectname = b0\
 modra LED: PD15\
 f) RX: PA1\
 TX: PA0\
+RX pin na STM-u moramo povezati s TX pinom na Nextion zaslonu in obratno. RX pin namreč pošilja podatke, medtem ko TX pin sprejema podatke.\
