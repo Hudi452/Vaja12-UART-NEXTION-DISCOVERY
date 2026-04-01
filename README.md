@@ -9,3 +9,6 @@ c) RX: PA1\
 TX: PA0\
 RX pin na STM-u moramo povezati s TX pinom na Nextion zaslonu in obratno. RX pin namreč pošilja podatke, medtem ko TX pin sprejema podatke.\
 d) PC0: kanal IN10\
+
+PINOUT KONFIGURACIJA:\
+![konfig](https://github.com/Hudi452/Vaja12-UART-NEXTION-DISCOVERY/blob/main/Pinout_konfiguracija.png)
