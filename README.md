@@ -22,6 +22,8 @@ ASCII znak:--Dvojiško:--Šestnajstiško:--Desetiško:\
 ----7--------0011 0111--------37------------55\
 ----8--------0011 1000--------38------------56\
 ----9--------0011 1001--------39------------57\
-
+Zapis 0xff (trikrat zapored) je standardno zaključno zaporedje (t.i. termination string) za komunikacijo z Nextion zasloni. Zaslon namreč začne ukaz obdelovati šele, ko prejme to zaključno zaporedje.\
+Ukazi 0xff niso znaki v ASCII kodi, ampak so surovi binarni podatki, ki jih Nextion zaslon interpretira kot konec pošiljanja.\
+ 
 PINOUT KONFIGURACIJA:\
 ![konfig](https://github.com/Hudi452/Vaja12-UART-NEXTION-DISCOVERY/blob/main/Pinout_konfiguracija.PNG)
