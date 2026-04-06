@@ -121,7 +121,7 @@ int main(void)
 	  reading /= 23; // pretvorba: 0 → 0, 4192 → 180
 
 	  // Pretvorba v ASCII znake
-	  //48 ustreza številu 0 v ASCII kodi
+	  // 48 ustreza številu 0 v ASCII kodi
 	  myTxData[0] = (reading / 100) + 48;      // Stotice
 	  myTxData[1] = ((reading / 10) % 10) + 48; // Desetice
 	  myTxData[2] = (reading % 10) + 48;       // Enice
